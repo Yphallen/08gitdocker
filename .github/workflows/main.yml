@@ -18,6 +18,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: 08gitdocker/
+          context: 08Docker/
           push: true
           tags: phallenyeng168/gitdockerci:latest
